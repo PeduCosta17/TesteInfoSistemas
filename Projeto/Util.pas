@@ -116,9 +116,9 @@ begin
         lSMTP.UseTLS := utUseImplicitTLS;
         lSMTP.Host := 'smtp.gmail.com';
         lSMTP.Port := 465;
-        lSMTP.Username := 'phcparkour@gmail.com';
-        lSMTP.Password := 'Lc112388';
-        lMessage.From.Address := 'phcparkour@gmail.com';
+        lSMTP.Username := 'pedroinfoteste@gmail.com';
+        lSMTP.Password := 'batatinhafrita';
+        lMessage.From.Address := 'pedroinfoteste@gmail.com';
         lMessage.From.Name := 'Pedro Info Remetente';
         lMessage.ReplyTo.EMailAddresses := lMessage.From.Address;
         lMessage.Recipients.Add.Text := destinatario;
